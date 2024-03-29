@@ -1,0 +1,1 @@
+SUBSYSTEM=="video4linux", ACTION=="add", MODE:="0777", RUN+="/bin/su pi -c '/etc/udev/rules.d/webcam.sh %k'"
